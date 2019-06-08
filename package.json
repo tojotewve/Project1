@@ -1,0 +1,109 @@
+{
+  "name": "Project",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "start": "ionic-app-scripts serve",
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint"
+  },
+  "dependencies": {
+    "@angular/animations": "5.2.11",
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@angular/forms": "5.2.11",
+    "@angular/http": "5.2.11",
+    "@angular/platform-browser": "5.2.11",
+    "@angular/platform-browser-dynamic": "5.2.11",
+    "@ionic-native/call-number": "^4.15.0",
+    "@ionic-native/core": "^4.20.0",
+    "@ionic-native/geolocation": "^5.2.0",
+    "@ionic-native/google-maps": "^4.21.0",
+    "@ionic-native/local-notifications": "^4.20.0",
+    "@ionic-native/splash-screen": "~4.12.0",
+    "@ionic-native/sqlite": "^4.20.0",
+    "@ionic-native/status-bar": "~4.12.0",
+    "@ionic-native/text-to-speech": "^4.20.0",
+    "@ionic/pro": "2.0.3",
+    "@ionic/storage": "2.2.0",
+    "@mauron85/cordova-plugin-background-geolocation": "^3.0.1",
+    "cordova-android": "^7.1.2",
+    "cordova-browser": "5.0.4",
+    "cordova-call": "^1.1.6",
+    "cordova-ios": "4.5.5",
+    "cordova-plugin-android-support-v4": "~21.0.1",
+    "cordova-plugin-badge": "^0.8.8",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-geolocation": "^4.0.1",
+    "cordova-plugin-googlemaps": "^2.5.3",
+    "cordova-plugin-ionic-keyboard": "^2.1.3",
+    "cordova-plugin-ionic-webview": "^2.2.3",
+    "cordova-plugin-local-notification": "^0.9.0-beta.2",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-tts": "^0.2.3",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-sms-plugin": "^0.1.13",
+    "cordova-sqlite-storage": "^3.2.0",
+    "io.gvox.plugin.phonecalltrap": "^0.1.2",
+    "ionic-angular": "3.9.2",
+    "ionicons": "3.0.0",
+    "n": "4.1.0",
+    "rm": "^0.1.8",
+    "rxjs": "5.5.11",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "3.2.0",
+    "typescript": "~2.6.2"
+  },
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      },
+      "cordova-plugin-ionic-keyboard": {},
+      "io.gvox.plugin.phonecalltrap": {},
+      "cordova-plugin-android-support-v4": {},
+      "cordova-sms-plugin": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-call": {},
+      "cordova-plugin-mauron85-background-geolocation": {
+        "GOOGLE_PLAY_SERVICES_VERSION": "11+",
+        "ANDROID_SUPPORT_LIBRARY_VERSION": "23+",
+        "ALWAYS_USAGE_DESCRIPTION": "App requires ...",
+        "MOTION_USAGE_DESCRIPTION": "App requires motion detection",
+        "ICON": "@mipmap/icon",
+        "SMALL_ICON": "@mipmap/icon",
+        "ACCOUNT_NAME": "@string/app_name",
+        "ACCOUNT_LABEL": "@string/app_name",
+        "ACCOUNT_TYPE": "$PACKAGE_NAME.account",
+        "CONTENT_AUTHORITY": "$PACKAGE_NAME"
+      },
+      "cordova-plugin-local-notification": {},
+      "cordova-plugin-tts": {},
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyAA1A37Xezl2UKwpQS8qIb6CVhpamGZKMk",
+        "PLAY_SERVICES_VERSION": "15.0.1",
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      },
+      "cordova-sqlite-storage": {}
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  }
+}

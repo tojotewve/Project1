@@ -1,0 +1,26 @@
+<ion-header>
+  <!-- <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar> -->
+  
+</ion-header>
+<div class="backbg"></div>
+<ion-content padding >
+    <ion-item>
+        <ion-label>Driving mode</ion-label>
+        <ion-toggle  (ionChange)="updatevalue(drivemode)" checked="false" [(ngModel)]="drivemode"></ion-toggle>
+      </ion-item>
+  <!-- <img src="assets/imgs/logo.png" class="logoImg"> -->
+  <ion-row align-items: center>
+     {{drivemode}}
+    <ion-col class="bgbutton" size="9">
+      <ion-icon name="add-circle"></ion-icon>
+      <p>Add Reminder</p>
+    </ion-col>
+    <ion-col class="bgbutton">
+      <ion-icon name="paper"></ion-icon>
+       <p> Reminder List</p>
+    </ion-col>
+  </ion-row>
+  
+</ion-content>

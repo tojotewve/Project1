@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Reminders
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<div class="backbg"></div>
+<ion-content>
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content></ion-refresher-content>
+      </ion-refresher>
+    
+
+      
+      
+          
+  <ion-list>
+      <ion-item-sliding *ngFor = "let reminder of remindersList;let i = index;">
+    <ion-item >
+      <ion-avatar item-start>
+         
+        <img src="assets/imgs/maplocation.png">
+      </ion-avatar>
+      <h2>{{reminder.Reminder}}</h2>
+      <h3>{{reminder.Place}}</h3>
+    
+    </ion-item>
+    <ion-item-options>
+        <button ion-button color="danger"  (click)="removeItem(i)"><ion-icon name="trash"></ion-icon> Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

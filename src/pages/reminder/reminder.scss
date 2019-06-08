@@ -1,0 +1,27 @@
+page-reminderList {
+    .content .scroll-content{
+       background: rgba(255, 255, 255, 0.34);
+    }
+    .backbg {
+        background: url(../assets/imgs/IMG1.png);
+        //background: url(https://cdn1.tekrevue.com/wp-content/uploads/2017/11/iphone-location-based-reminder-960x540.jpg) !important;
+        background-position: center;
+        filter: blur(8px);
+        background-size: cover;
+      -webkit-filter: blur(8px);
+      position: absolute;
+      width: 100%;
+      background-position: center;
+      height: 100%;
+      z-index: -99;
+      top: 0px;
+       }
+       .toolbar-background-md {
+        border-color: #b2b2b2;
+        background: rgba(0,0,0,0);
+        color:#fff;
+       }
+    //    .toolbar-title-md {
+    //        color:#fff;
+    //    }
+}
